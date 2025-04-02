@@ -1,15 +1,15 @@
 # UNN_Mart
+<hr>
 
-# Description
-A website where UNN vendors can advertise their brand and products while students can select froma range of sellers of a particular product.
+## Description
+A website where UNN vendors can advertise their brand and products while students can select from a range of sellers of a particular product.
 
-#Tech Stack
+<hr>
 
-#Frontend
-HTML
-CSS
-Javascript(React.js)
+## Tech stack used
 
-#Backend
-***
-***
+### Frontend
+- HTML
+- CSS
+- Javascript
+
