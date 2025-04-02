@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar styling */
+.heading{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+/* Logo styling */
+.heading img{
+    width: 10%;
+}
+
+/* Arranging nav items */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#2D6533;
+    color: white;
+    padding-left: 10px;
+    
+}
+
+/* Arranging menu items */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px; 
+}
+
+.menu a{
+    padding: 10px;
+}
+
+
+.menu a:visited{
+    color: white;
+}
+
+.menu a:link{
+    color:white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: rgb(11, 121, 11);
+}
+
+/* Styling flyers for slideshow */
+#promo{
+    width: 400px;
+    height: 500px;
+    display: none;
+}
+
+/* Styling Collection section */
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    letter-spacing: 0.3px;
+    color: rgb(95, 31, 20);
+    font-weight: 200;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling collection items */
+.collection_items{
+    margin: 15px;
+    padding:15px 45px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    gap:20px;
+}
+.collection_items img{
+    width:225px;
+    height: 225px;
+    border-radius: 50%;
+    padding:10px;
+}
+
+/* Aligning collection items with their names */
+#category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+
+#category h3{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    letter-spacing: 0.5px;
+    color:rgb(29, 3, 3);
+}
+
+/* Creating a scroll function */
+.collections{
+    overflow: hidden;
+    padding:10px;
+    position: relative;
+}
+
+/* Making the scrollbar hidden */
+.collection_items::-webkit-scrollbar{
+    display: none;
+}
+
+/* Styling left and right buttons for scrolling */
+.collections button{
+  background-color: white;
+    border:none;
+    height: 60px;
+    width:60px;
+    padding:20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    z-index: 1;
+    opacity: 0.5; 
+}
+
+.left{
+    position: absolute;
+    top:130px;
+}
+
+.right{
+    position: absolute;
+    top: 130px;
+    right:10px;
+}
+
+.collections button:hover{
+    background-color: rgb(240, 236, 236);
+    opacity: 0.8;
+}
+
+/* Styling the Footer */
+footer{
+    background-color: #2D6533;
+    color: white;
+    padding:15px;
+}
+
+/* Styling and aligning the logo */
+.heading4{
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.heading h4{
+    font-size: 1.8em;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.2px;
+    margin:10px;
+    padding: 10px;
+}
+
+.heading4 img{
+    width: 10%;
+}
+
+/* Styling footer container */
+.footer{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;  
+}
+
+/* Styling contact info */
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    margin:30px;
+    padding:20px;
+}
+#contact{
+    display: flex;
+    gap:15px;
+    align-items: center;  
+}
+
+/* Styling Newsletter section */
+.rightfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap:20px;
+    margin:0 30px;
+    padding:0 20px;
+}
+.rightfooter h3{
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+/* Styling newsletter form */
+form{
+    display: flex;
+}
+input{
+    padding: 15px;
+    border: 1px solid #2D6533;
+    border-radius: 5px;
+    width:100%;
+    margin-right: 10px;
+}
+form button{
+    background-color: rgb(95, 31, 20);
+    color: rgb(131, 105, 105);
+    padding:10px;
+    border-radius: 5px;
+    display: block;
+}
+
+form button:hover{
+    background-color: rgb(29, 3, 3);
+}
+
+/* Aligning Social media icons */
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 20px;
+    padding:0 20px;
+}
+
+/* Styling lower footer */
+footer h5{
+    text-align: center;
+    font-size: 0.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+}
+
